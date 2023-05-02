@@ -69,9 +69,18 @@ button:hover, .button:hover{
 
 .scores{
     display: flex;
+    justify-content: space-evenly;
     flex-direction: row;
-    justify-content: center;
+    background-color: rgb(214, 241, 91);
+    margin: 10px;
+    padding: 10px;
 }
+
+.score {
+    font-size: 20px;
+    color: black;
+    margin: 0;
+  }
 
 .uScoreCl{
     background-color: rgb(100, 222, 120);
